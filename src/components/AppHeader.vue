@@ -39,7 +39,7 @@ export default {
             <div>
                 <ul class="menu">
                     <li v-for="section in sections">{{ section }}</li>
-                    <a href="#">Contattaci!</a>
+                    <a href="#">Get in touch!</a>
                 </ul>
             </div>
         </div>

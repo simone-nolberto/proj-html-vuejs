@@ -29,6 +29,8 @@ a {
   justify-content: space-between;
 }
 
+/* #region header */
+
 .top_header {
   padding: 0.5rem;
   background-color: var(--care-brown);
@@ -43,7 +45,7 @@ a {
 
 .nav {
 
-  padding: 1.5rem;
+  padding: 1rem;
 
   & .menu {
     list-style: none;
@@ -60,6 +62,85 @@ a {
   }
 }
 
+/* #endregion header */
+
+/* #region main */
+
+.welcome {
+  background-image: url(./assets/img/b.png);
+  min-height: 600px;
+
+
+  .cta_box {
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 400px;
+
+
+
+    & a {
+      background-color: var(--care-orange);
+      padding: 0.75rem;
+      border-radius: 1.5rem;
+      color: white;
+    }
+
+  }
+}
+
+
+.about {
+
+  padding: 3rem 0;
+
+  & img {
+    height: 400px;
+  }
+
+}
+
+
+.services {
+
+  background-color: var(--care-lightgrey);
+
+
+  & h3,
+  h6 {
+    text-align: center;
+  }
+
+  .card{
+    background-color: var(--care-orange);
+    border-radius: 5rem;
+    margin: 2rem 1rem;
+    text-align: center;
+    padding: 1rem;
+
+    & img{
+      height: 75px;  
+    }
+
+    & button{
+      background-color: var(--care-highlight);
+      border-radius: 50%;
+      height: 35px;
+      width: 35px;
+
+    }
+    
+  }
+}
+
+.choose{
+  display: flex;
+}
+
+/* #endregion main */
+
+
+/* #region footer */
 .top_footer {
 
   background-color: black;
@@ -67,7 +148,7 @@ a {
 
   & ul {
     list-style: none;
-    
+
   }
 
   & h4 {
@@ -85,3 +166,6 @@ a {
   }
 
 }
+
+
+/* #endregion footer */
