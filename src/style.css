@@ -93,9 +93,15 @@ a {
 .about {
 
   padding: 3rem 0;
+  display: flex;
 
   & img {
     height: 400px;
+  }
+
+  & .side-img {
+    height: 200px;
+
   }
 
 }
@@ -104,37 +110,72 @@ a {
 .services {
 
   background-color: var(--care-lightgrey);
+  display: flex;
 
+  & .side-img {
+    height: 250px;
+
+  }
+
+  & .leftside-img{
+    height: 150px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
 
   & h3,
   h6 {
     text-align: center;
   }
 
-  .card{
-    background-color: var(--care-orange);
-    border-radius: 5rem;
-    margin: 2rem 1rem;
-    text-align: center;
-    padding: 1rem;
+  .service-box {
+    display: flex;
 
-    & img{
-      height: 75px;  
+    .card {
+
+      background-color: var(--care-orange);
+      border-radius: 5rem;
+      margin: 2rem 1rem;
+      text-align: center;
+      padding: 1rem;
+
+      & img {
+        height: 75px;
+      }
+
+      & button {
+        background-color: var(--care-highlight);
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+
+      }
+
     }
-
-    & button{
-      background-color: var(--care-highlight);
-      border-radius: 50%;
-      height: 35px;
-      width: 35px;
-
-    }
-    
   }
+
+
 }
 
-.choose{
+.choose {
   display: flex;
+
+  .reasons-box{
+    margin-top: 2rem;
+    padding: 3rem;
+
+    & img{
+      height: 100px;
+    }
+
+
+    .card{
+      display: flex;
+      
+    }
+  }
 }
 
 /* #endregion main */

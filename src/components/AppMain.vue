@@ -36,6 +36,27 @@ export default {
                     text: 'The readable content of a page when looking as its layout',
 
                 }
+            ],
+
+            reasons: [
+                {
+                    img: 'src/assets/img/w-3.png',
+                    name: 'Safety First',
+                    text: 'It s a long established fact that a reader will be distructued by the readable content of a page when looking at its layout',
+
+                },
+                {
+                    img: 'src/assets/img/w-2.png',
+                    name: 'Play yards',
+                    text: 'It s a long established fact that a reader will be distructued by the readable content of a page when looking at its layout',
+
+                },
+                {
+                    img: 'src/assets/img/w-1.png',
+                    name: 'Monitor your pets',
+                    text: 'It s a long established fact that a reader will be distructued by the readable content of a page when looking at its layout',
+
+                },
             ]
 
         }
@@ -89,24 +110,37 @@ export default {
 
         </div>
 
+        <img class="side-img" src="/src/assets/img/dog-logo.png" alt="">
+
     </div>
 
     <div class="services">
-        <h6>Services</h6>
 
-        <h3>
-            DogMilo Pet Care Services For Your Best Friends.
-        </h3>
+
+        <img class="leftside-img" src="/src/assets/img/dog-left.png" alt="">
+
+
 
         <div class="container">
-            <div class="card" v-for="service in services">
-                <img :src="service.img" alt="">
-                <h5>{{ service.name }}</h5>
-                <p>{{ service.text }}</p>
-                <button><i class="fa-solid fa-chevron-right"></i></button>
+            <h6>Services</h6>
+
+            <h3>
+                DogMilo Pet Care Services For Your Best Friends.
+            </h3>
+
+            <div class="service-box">
+                <div class="card" v-for="service in services">
+                    <img :src="service.img" alt="">
+                    <h5>{{ service.name }}</h5>
+                    <p>{{ service.text }}</p>
+                    <button><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
             </div>
 
+
         </div>
+
+        <img class="side-img" src="/src/assets/img/dog-logo.png" alt="">
 
     </div>
 
@@ -114,8 +148,21 @@ export default {
         <div>
             <img src="/src/assets/img/why.png" alt="">
         </div>
-        <div>
-            
+        <div class="reasons-box">
+            <h6>Choose Us</h6>
+            <h3>Why Choose Us?</h3>
+
+            <div class="card" v-for="reason in reasons">
+                <img :src="reason.img" alt="">
+                <div class="card_body">
+                    <h5>{{ reason.name }}</h5>
+                    <p>{{ reason.text }}</p>
+                </div>
+
+            </div>
+
+
+
         </div>
     </div>
 </template>
