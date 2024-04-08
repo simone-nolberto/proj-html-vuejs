@@ -86,7 +86,6 @@ export default {
 
     </div>
 
-
     <div class="about">
 
         <div class="container">
@@ -164,6 +163,17 @@ export default {
 
 
         </div>
+    </div>
+
+
+    <div class="review">
+
+        <div class="container">
+
+            <div class="card"></div>
+
+        </div>
+
     </div>
 </template>
 
