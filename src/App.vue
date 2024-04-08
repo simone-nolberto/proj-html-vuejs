@@ -1,6 +1,7 @@
 <script>
 
-import Header from './components/AppHeader.vue'
+import Header from './components/AppHeader.vue';
+import Footer from './components/AppFooter.vue'
 
 export default {
     name: 'DogCare',
@@ -11,7 +12,8 @@ export default {
     },
 
     components: {
-        Header
+        Header,
+        Footer
     }
 }
 </script>
@@ -19,6 +21,7 @@ export default {
 <template>
 
     <Header></Header>
+    <Footer></Footer>
 
 </template>
 
