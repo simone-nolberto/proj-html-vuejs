@@ -92,23 +92,31 @@ export default {
 
         <div class="container">
 
-            <div>
-                <img src="../assets/img/about.png" alt="">
+            <div class="row">
+                <div class="col">
+                    <img src="../assets/img/about.png" alt="">
+                </div>
+                <div class="col">
+                    <div class="about-text">
+                        <h6>About us</h6>
+
+                        <h3>Welcome DogMilo Pets</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum nam magnam sed odio
+                            dolorem! Ipsum vel amet delectus laborum et tempora blanditiis, a quos debitis laudantium
+                            eveniet,
+                            alias id!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem blanditiis numquam
+                            doloremque,
+                            reprehenderit odio totam minima quas distinctio dolores asperiores similique! Facere
+                            similique cum,
+                            aut nobis tenetur neque distinctio fugit.</p>
+
+                    </div>
+                </div>
             </div>
 
 
-            <div class="about-text">
-                <h6>About us</h6>
 
-                <h3>Welcome DogMilo Pets</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum nam magnam sed odio
-                    dolorem! Ipsum vel amet delectus laborum et tempora blanditiis, a quos debitis laudantium eveniet,
-                    alias id!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem blanditiis numquam doloremque,
-                    reprehenderit odio totam minima quas distinctio dolores asperiores similique! Facere similique cum,
-                    aut nobis tenetur neque distinctio fugit.</p>
-
-            </div>
 
         </div>
 
@@ -175,53 +183,64 @@ export default {
 
         <div class="container">
 
-            <div class="card">
-                <h6>Review & Rating</h6>
-                <h3>Over 8000 Customers With 5-Star Review</h3>
-                <p>It s a long established fact that a reader will be distructued by the readable content of a page when
-                    looking at its layout</p>
-                <ul class="vote">
-                    <li v-for="star in 5"><i class="fa-solid fa-star"></i></li>
-                </ul>
-            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <h6>Review & Rating</h6>
+                        <h3>Over 8000 Customers With 5-Star Review</h3>
+                        <p>It s a long established fact that a reader will be distructued by the readable content of a
+                            page when
+                            looking at its layout</p>
+                        <ul class="vote">
+                            <li v-for="star in 5"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="rev-card">
+                        <ul class="vote">
+                            <li v-for="star in 5"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <h4>Great Place</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur vel voluptate, ad
+                            error
+                            impedit autem possimus tempore quam laboriosam quia veritatis odio libero. Minus veniam
+                            dignissimos
+                            dolores debitis quas.</p>
 
-            <div class="rev-card">
-                <ul class="vote">
-                    <li v-for="star in 5"><i class="fa-solid fa-star"></i></li>
-                </ul>
-                <h4>Great Place</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur vel voluptate, ad error
-                    impedit autem possimus tempore quam laboriosam quia veritatis odio libero. Minus veniam dignissimos
-                    dolores debitis quas.</p>
+                        <div class="user">
+                            <img src="/src/assets/img/t1.png" alt="">
 
-                <div class="user">
-                    <img src="/src/assets/img/t1.png" alt="">
+                            <div class="user-id">
+                                <h4>Tobias May</h4>
+                                <p>UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="rev-card">
+                        <ul class="vote">
+                            <li v-for="star in 5"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <h4>Great Place</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur vel voluptate, ad
+                            error
+                            impedit autem possimus tempore quam laboriosam quia veritatis odio libero. Minus veniam
+                            dignissimos
+                            dolores debitis quas.</p>
 
-                    <div class="user-id">
-                        <h4>Tobias May</h4>
-                        <p>UI/UX Designer</p>
+                        <div class="user">
+                            <img src="/src/assets/img/t1.png" alt="">
+
+                            <div class="user-id">
+                                <h4>Tobias May</h4>
+                                <p>UI/UX Designer</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="rev-card">
-                <ul class="vote">
-                    <li v-for="star in 5"><i class="fa-solid fa-star"></i></li>
-                </ul>
-                <h4>Great Place</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur vel voluptate, ad error
-                    impedit autem possimus tempore quam laboriosam quia veritatis odio libero. Minus veniam dignissimos
-                    dolores debitis quas.</p>
-
-                <div class="user">
-                    <img src="/src/assets/img/t1.png" alt="">
-
-                    <div class="user-id">
-                        <h4>Tobias May</h4>
-                        <p>UI/UX Designer</p>
-                    </div>
-                </div>
-            </div>
-
         </div>
 
         <div class="container">
@@ -231,8 +250,9 @@ export default {
 
             </div>
         </div>
-
     </div>
+
+
 </template>
 
 <style></style>
