@@ -18,7 +18,20 @@ export default {
 
 <template>
 
+
+
     <div class="top_footer">
+        <div class="newsletter">
+
+            <img src="/src/assets/img/news.png" alt="">
+
+            <div class="news-cta">
+                <h3>Subscribe to Our newsletter</h3>
+                <input type="email" name="" id="" placeholder="Your Email Here">
+            </div>
+
+        </div>
+
         <div class="container">
 
             <div class="box">
@@ -67,7 +80,7 @@ export default {
     </div>
 
     <div class="copy">
-
+        Cpyright 2024 by Simone.Nolberto | Boolean Tech Academy | classe 119
     </div>
 
 
