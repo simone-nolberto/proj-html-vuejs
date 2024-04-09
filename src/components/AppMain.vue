@@ -98,9 +98,14 @@ export default {
                 </div>
                 <div class="col">
                     <div class="about-text">
-                        <h6>About us</h6>
 
-                        <h3>Welcome DogMilo Pets</h3>
+                        <div class="logo">
+                            <img class="icon" src="/src/assets/img/dog-icon.png" alt="">
+                            <h5>About us</h5>
+                        </div>
+
+
+                        <h2>Welcome DogMilo Pets</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum nam magnam sed odio
                             dolorem! Ipsum vel amet delectus laborum et tempora blanditiis, a quos debitis laudantium
                             eveniet,
@@ -129,8 +134,6 @@ export default {
 
         <img class="leftside-img" src="/src/assets/img/dog-left.png" alt="">
 
-
-
         <div class="container">
             <h6>Services</h6>
 
@@ -149,8 +152,6 @@ export default {
                 </div>
             </div>
 
-
-
         </div>
 
         <img class="side-img" src="/src/assets/img/dog-logo.png" alt="">
@@ -158,22 +159,29 @@ export default {
     </div>
 
     <div class="choose">
-        <div>
-            <img src="/src/assets/img/why.png" alt="">
-        </div>
+
+
+        <img src="/src/assets/img/why.png" alt="">
+
         <div class="reasons-box">
-            <h6>Choose Us</h6>
-            <h3>Why Choose Us?</h3>
 
-            <div class="card" v-for="reason in reasons">
-                <img :src="reason.img" alt="">
-                <div class="card_body">
-                    <h5>{{ reason.name }}</h5>
-                    <p>{{ reason.text }}</p>
-                </div>
-
+            <div class="logo">
+                <img class="icon" src="/src/assets/img/dog-icon.png" alt="">
+                <h5>Choose Us</h5>
             </div>
 
+            <h3>Why Choose Us?</h3>
+
+            <div class="card-box">
+                <div class="card" v-for="reason in reasons">
+                    <img :src="reason.img" alt="">
+                    <div class="card_body">
+                        <h5>{{ reason.name }}</h5>
+                        <p>{{ reason.text }}</p>
+                    </div>
+
+                </div>
+            </div>
 
 
         </div>
@@ -243,12 +251,12 @@ export default {
             </div>
         </div>
 
-        <div class="container">
-            <div class="carousel-button">
-                <button><i class="fa-solid fa-chevron-left"></i></button>
-                <button><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="container carousel-button">
 
-            </div>
+            <button><i class="fa-solid fa-chevron-left"></i></button>
+            <button><i class="fa-solid fa-chevron-right"></i></button>
+
+
         </div>
     </div>
 
