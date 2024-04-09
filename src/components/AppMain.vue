@@ -69,17 +69,19 @@ export default {
 
     <div class="welcome">
 
+        <img src="/src/assets/img/b.png" alt="">
+
         <div class="container">
             <div class="cta_box">
 
-                <h3>Welcome to DogMilo Pets</h3>
+                <h2>Welcome to DogMilo Pets</h2>
 
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, obcaecati! Aliquid quisquam magni
                     ullam ipsam.
                 </p>
 
-                <a href="#">Get started!</a>
+                <a href="#">Get started!</a> <a class="play" href="#"><i class="fa-regular fa-circle-play"></i></a>
             </div>
 
         </div>
@@ -89,12 +91,13 @@ export default {
     <div class="about">
 
         <div class="container">
+
             <div>
                 <img src="../assets/img/about.png" alt="">
             </div>
 
 
-            <div>
+            <div class="about-text">
                 <h6>About us</h6>
 
                 <h3>Welcome DogMilo Pets</h3>
@@ -164,7 +167,6 @@ export default {
 
         </div>
     </div>
-
 
     <div class="reviews">
 
