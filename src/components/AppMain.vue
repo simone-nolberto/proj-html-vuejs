@@ -130,14 +130,17 @@ export default {
                 DogMilo Pet Care Services For Your Best Friends.
             </h3>
 
-            <div class="service-box">
-                <div class="card" v-for="service in services">
-                    <img :src="service.img" alt="">
-                    <h5>{{ service.name }}</h5>
-                    <p>{{ service.text }}</p>
-                    <button><i class="fa-solid fa-chevron-right"></i></button>
+            <div class="row">
+                <div class="col" v-for="service in services">
+                    <div class="card">
+                        <img :src="service.img" alt="">
+                        <h5>{{ service.name }}</h5>
+                        <p>{{ service.text }}</p>
+                        <button><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
                 </div>
             </div>
+
 
 
         </div>
@@ -187,7 +190,9 @@ export default {
                     <li v-for="star in 5"><i class="fa-solid fa-star"></i></li>
                 </ul>
                 <h4>Great Place</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur vel voluptate, ad error impedit autem possimus tempore quam laboriosam quia veritatis odio libero. Minus veniam dignissimos dolores debitis quas.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur vel voluptate, ad error
+                    impedit autem possimus tempore quam laboriosam quia veritatis odio libero. Minus veniam dignissimos
+                    dolores debitis quas.</p>
 
                 <div class="user">
                     <img src="/src/assets/img/t1.png" alt="">
@@ -203,7 +208,9 @@ export default {
                     <li v-for="star in 5"><i class="fa-solid fa-star"></i></li>
                 </ul>
                 <h4>Great Place</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur vel voluptate, ad error impedit autem possimus tempore quam laboriosam quia veritatis odio libero. Minus veniam dignissimos dolores debitis quas.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur vel voluptate, ad error
+                    impedit autem possimus tempore quam laboriosam quia veritatis odio libero. Minus veniam dignissimos
+                    dolores debitis quas.</p>
 
                 <div class="user">
                     <img src="/src/assets/img/t1.png" alt="">
