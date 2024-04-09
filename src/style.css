@@ -295,18 +295,18 @@ a {
   .row {
     display: flex;
     flex-wrap: wrap;
-
+    
     .col {
-      width: calc((100% / 12) * 3);
-      margin: 0 2rem;
+      width: calc(100% / 3);
+      padding: 1.5rem;
     }
   }
 
 
   .card {
-    width: 300px;
+    width: 250px;
     aspect-ratio: 1;
-    padding: 1.5rem;
+    padding: 1rem;
 
     * {
       margin: 1rem 0;
@@ -322,9 +322,9 @@ a {
   }
 
   .rev-card {
-    width: 300px;
+    width: 250px;
     aspect-ratio: 1;
-    padding: 1.5rem;
+    
     background-color: var(--care-lightgrey);
 
     * {
@@ -349,7 +349,7 @@ a {
 
   .carousel-button {
     justify-content: end;
-    
+
 
     & button {
       width: 35px;
