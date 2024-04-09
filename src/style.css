@@ -251,8 +251,12 @@ a {
   display: flex;
   flex-wrap: wrap;
 
+  .left-img{
+    width: 600px;
+  }
+
   .reasons-box {
-    width: 50%;
+    width: calc(100vw - 600px);
     margin-top: 2rem;
     padding: 3rem;
 

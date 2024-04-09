@@ -161,7 +161,7 @@ export default {
     <div class="choose">
 
 
-        <img src="/src/assets/img/why.png" alt="">
+        <img class="left-img" src="/src/assets/img/why.png" alt="">
 
         <div class="reasons-box">
 
