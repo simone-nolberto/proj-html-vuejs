@@ -117,7 +117,7 @@ a {
 
   }
 
-  & .leftside-img{
+  & .leftside-img {
     height: 150px;
   }
 
@@ -162,19 +162,79 @@ a {
 .choose {
   display: flex;
 
-  .reasons-box{
+  .reasons-box {
     margin-top: 2rem;
     padding: 3rem;
 
-    & img{
+    & img {
       height: 100px;
     }
 
 
-    .card{
+    .card {
       display: flex;
-      
+
     }
+  }
+}
+
+
+
+.reviews {
+
+  padding: 5rem 0;
+
+
+  .card {
+    width: 300px;
+    aspect-ratio: 1;
+    padding: 1.5rem;
+
+  }
+
+  & .vote {
+    list-style: none;
+    display: flex;
+    color: var(--care-highlight);
+
+  }
+
+  .rev-card {
+    width: 300px;
+    aspect-ratio: 1;
+    
+    padding: 1.5rem;
+    background-color: var(--care-lightgrey);
+
+    .user {
+      display: flex;
+
+
+      & img {
+        width: 80px;
+        border-radius: 50%;
+
+      }
+
+      .user-id {
+        margin: 1rem;
+      }
+    }
+  }
+
+  .carousel-button{
+    
+    position: absolute;
+    right: 16.5rem;
+
+    & button{
+      width: 35px;
+      aspect-ratio: 1;
+      color: white;
+      background-color: var(--care-orange);
+      margin: 10px 10px;
+    }
+    
   }
 }
 
