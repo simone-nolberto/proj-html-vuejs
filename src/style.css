@@ -79,7 +79,7 @@ a {
       background-color: var(--care-blue);
     }
 
-    li:hover{
+    li:hover {
       color: var(--care-orange);
     }
   }
@@ -418,6 +418,31 @@ a {
     position: absolute;
     right: 50px;
     top: 80px;
+
+    .subscribe {
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 0.25rem;
+      height: 50px;
+      
+
+      & input {
+        border: 0;
+        width: 80%;
+        padding: 1rem;
+        
+      }
+
+      & span {
+        width: 20%;
+        height: 100%;        
+        background-color: var(--care-orange);
+        text-align: center;
+        
+        padding: 0.75rem 0;
+      }
+    }
   }
 
 }

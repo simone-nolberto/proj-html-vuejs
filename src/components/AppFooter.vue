@@ -9,7 +9,16 @@ export default {
             faqs: ['Account', 'Order', 'Delivery', 'Payment', 'Return'],
             socialsIcon: ["fa-brands fa-square-facebook", "fa-brands fa-square-pinterest", "<fa-brands fa-square-x-twitter", "fa-brands fa-linkedin", "<fa-brands fa-square-instagram"],
 
+            userMail: '',
 
+        }
+    },
+    methods: {
+
+        newsLetterAlert() {
+
+            // console.log(this.userMail);
+            alert(`Grazie per esserti iscritto, ogni mese riceverai aggiornamenti sulla mail ${this.userMail}!`)
         }
     }
 }
@@ -27,7 +36,12 @@ export default {
 
             <div class="news-cta">
                 <h3>Subscribe to Our newsletter</h3>
-                <input type="email" name="" id="" placeholder="Your Email Here">
+                <div class="subscribe">
+                    <input type="email" name="" id="" placeholder="Your Email Here" v-model="userMail">
+                    <span @click="newsLetterAlert"><i class="fa-solid fa-at"></i></span>
+                    <!-- <p>(click on the '@' to subscribe)</p> -->
+                </div>
+
             </div>
 
         </div>
