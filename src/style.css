@@ -140,7 +140,7 @@ a {
 .about {
   position: relative;
   padding: 3rem 0;
-  display: flex;
+  
 
   & img {
     height: 400px;
@@ -183,6 +183,7 @@ a {
     height: 200px;
     position: absolute;
     right: 0;
+    top: 2.5rem;
 
   }
 

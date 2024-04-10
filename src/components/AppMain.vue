@@ -120,10 +120,7 @@ export default {
                     </div>
                 </div>
             </div>
-
-
-
-
+            
         </div>
 
         <img class="side-img" src="/src/assets/img/dog-logo.png" alt="">
