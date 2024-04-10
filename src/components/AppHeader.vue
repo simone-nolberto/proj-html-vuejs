@@ -19,8 +19,8 @@ export default {
         <div class="container">
 
             <ul class="contacts">
-                <li><i class="fa-solid fa-envelope"></i><a href="mailto:#">info@DogCare.com</a></li>
-                <li><i class="fa-solid fa-phone"></i><a href="tel:+">1(817)9013377</a></li>
+                <li><i class="fa-solid fa-envelope"></i><a href="mailto:#"> info@DogCare.com</a></li>
+                <li><i class="fa-solid fa-phone"></i><a href="tel:+"> 1(817)9013377</a></li>
             </ul>
 
             <ul class="socials">

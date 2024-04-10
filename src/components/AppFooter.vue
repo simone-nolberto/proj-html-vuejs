@@ -19,6 +19,8 @@ export default {
 
             // console.log(this.userMail);
             alert(`Grazie per esserti iscritto, ogni mese riceverai aggiornamenti sulla mail ${this.userMail}!`)
+
+            this.userMail = ''
         }
     }
 }
@@ -39,8 +41,8 @@ export default {
                 <div class="subscribe">
                     <input type="email" name="" id="" placeholder="Your Email Here" v-model="userMail">
                     <span @click="newsLetterAlert"><i class="fa-solid fa-at"></i></span>
-                    <!-- <p>(click on the '@' to subscribe)</p> -->
                 </div>
+                <p>(click on the '@' to subscribe)</p>
 
             </div>
 
@@ -64,30 +66,30 @@ export default {
                     <h4>Support</h4>
 
                     <ul>
-                        <li v-for="link in supports">{{ link }}</li>
+                        <li v-for="link in supports"><a href="#">{{ link }}</a></li>
                     </ul>
                 </div>
                 <div class="col">
 
                     <h4>About</h4>
                     <ul>
-                        <li v-for="link in abouts">{{ link }}</li>
+                        <li v-for="link in abouts"><a href="#">{{ link }}</a></li>
                     </ul>
                 </div>
                 <div class="col">
                     <h4>Faq</h4>
                     <ul>
-                        <li v-for="question in faqs">{{ question }}</li>
+                        <li v-for="question in faqs"><a href="#">{{ question }}</a></li>
                     </ul>
                 </div>
                 <div class="col">
                     <h4>Contact me</h4>
                     <ul>
-                        <li><i class="fa-solid fa-location-arrow"><a href="#">4500 Mercantile plaza, suite 300, fort
+                        <li><i class="fa-solid fa-location-arrow"><a href="#"> 4500 Mercantile plaza, suite 300, fort
                                     worth,
                                     TX, 76137, USA</a></i></li>
-                        <li><i class="fa-solid fa-phone"></i><a href="tel:+">1(817)9013377</a></li>
-                        <li><i class="fa-solid fa-envelope"></i><a href="mailto:#">info@DogCare.com</a></li>
+                        <li><i class="fa-solid fa-phone"></i><a href="tel:+"> 1(817)9013377</a></li>
+                        <li><i class="fa-solid fa-envelope"></i><a href="mailto:#"> info@DogCare.com</a></li>
                     </ul>
                 </div>
             </div>

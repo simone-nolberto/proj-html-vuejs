@@ -195,7 +195,10 @@ export default {
             <div class="row">
                 <div class="col">
                     <div class="card">
-                        <h6>Review & Rating</h6>
+                        <div class="logo">
+                            <img class="icon" src="/src/assets/img/dog-icon.png" alt="">
+                            <h5>Review & Rating</h5>
+                        </div>
                         <h3>Over 8000 Customers With 5-Star Review</h3>
                         <p>It s a long established fact that a reader will be distructued by the readable content of a
                             page when
@@ -250,7 +253,7 @@ export default {
                     </div>
                 </div>
             </div>
-            
+
             <div class="carousel-button">
 
                 <button><i class="fa-solid fa-chevron-left"></i></button>
