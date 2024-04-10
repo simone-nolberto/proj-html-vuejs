@@ -81,7 +81,8 @@ export default {
                     ullam ipsam.
                 </p>
 
-                <a href="#">Get started!</a> <a class="play" href="#"><i class="fa-regular fa-circle-play"></i></a>
+                <a class="start" href="#">Get started!</a> <a class="play" href="#"><i
+                        class="fa-regular fa-circle-play"></i></a>
             </div>
 
         </div>
@@ -249,15 +250,19 @@ export default {
                     </div>
                 </div>
             </div>
+            
+            <div class="carousel-button">
+
+                <button><i class="fa-solid fa-chevron-left"></i></button>
+                <button><i class="fa-solid fa-chevron-right"></i></button>
+
+
+            </div>
+
+
         </div>
 
-        <div class="container carousel-button">
 
-            <button><i class="fa-solid fa-chevron-left"></i></button>
-            <button><i class="fa-solid fa-chevron-right"></i></button>
-
-
-        </div>
     </div>
 
 

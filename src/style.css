@@ -71,6 +71,16 @@ a {
       padding: 0.75rem;
       border-radius: 1.5rem;
       color: white;
+
+
+    }
+
+    .touch:hover {
+      background-color: var(--care-blue);
+    }
+
+    li:hover{
+      color: var(--care-orange);
     }
   }
 }
@@ -103,6 +113,10 @@ a {
       padding: 0.75rem;
       border-radius: 1.5rem;
       color: white;
+    }
+
+    .start:hover {
+      background-color: var(--care-blue);
     }
 
     .play {
@@ -243,6 +257,11 @@ a {
   }
 
 
+  .card:hover {
+    background-color: var(--care-brown);
+  }
+
+
 }
 
 .choose {
@@ -251,7 +270,7 @@ a {
   display: flex;
   flex-wrap: wrap;
 
-  .left-img{
+  .left-img {
     width: 600px;
   }
 
@@ -295,11 +314,13 @@ a {
 .reviews {
 
   padding: 5rem 0 13rem 0;
+  position: relative;
 
   .row {
     display: flex;
     flex-wrap: wrap;
-    
+    width: 100%;
+
     .col {
       width: calc(100% / 3);
       padding: 1.5rem;
@@ -308,7 +329,7 @@ a {
 
 
   .card {
-    width: 250px;
+    width: 300px;
     aspect-ratio: 1;
     padding: 1rem;
 
@@ -326,9 +347,9 @@ a {
   }
 
   .rev-card {
-    width: 250px;
+    width: 300px;
     aspect-ratio: 1;
-    
+    padding: 1rem;
     background-color: var(--care-lightgrey);
 
     * {
@@ -353,7 +374,9 @@ a {
 
   .carousel-button {
     justify-content: end;
-
+    position: absolute;
+    bottom: 10rem;
+    right: 16rem;
 
     & button {
       width: 35px;
@@ -361,6 +384,10 @@ a {
       color: white;
       background-color: var(--care-orange);
       margin: 10px 10px;
+    }
+
+    button:hover {
+      background-color: var(--care-brown);
     }
 
   }
